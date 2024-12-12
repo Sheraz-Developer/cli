@@ -17,6 +17,8 @@ import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 import whatsapp from './whatsapp.png'
+import instagram from './instagram-logo.png'
+import seraphic from './sera.png'
 
 export const assets = {
     logo,
@@ -37,6 +39,8 @@ export const assets = {
     razorpay_logo,
     stripe_logo,
     cross_icon,
-    whatsapp
+    whatsapp,
+    instagram,
+    seraphic
 }
 

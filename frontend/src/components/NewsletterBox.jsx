@@ -1,19 +1,15 @@
 import React from 'react'
+import { assets } from '../assets/assets';
 
 const NewsletterBox = () => {
-    const onSubmitHandler = (event)=>{
-        event.preventDefault();
-    }
+    
     return (
     <div className='text-center'>
-        <p className='text-2xl font-medium text-gray-800'>Subscribe now & get 20% off</p>
+        <p className='text-2xl font-medium text-gray-800'>Follow now & get 20% off</p>
         <p className='text-gray-400 mt-3'>
-            We offer you to subscribe us and get up to 20% discount. So subscribe us this offer is limited.
+            We offer you to Follow us on instagram and get up to 20% discount. So subscribe us this offer is limited.
         </p>
-        <form onSubmit={onSubmitHandler} className='w-full sm:w-1/2 flex itemscenter gap-3 mx-auto my-6 border pl-3'>
-            <input className='w-full sm:flex-1 outline-none' type="email" placeholder='Enter your email' required/>
-            <button type='submit' className='bg-black text-white text-xs px-10 py-4'>Subscribe</button>
-        </form>
+        <button className='items-center'><a href="https://www.instagram.com/seraphic.scent/" target='_blank'><img className='mt-4 w-20 items-center' src={assets.instagram} alt="" /></a></button>
     </div>
     )
 }

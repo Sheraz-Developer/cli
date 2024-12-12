@@ -80,8 +80,13 @@ const Product = () => {
           <p className='border px-5 py-3 text-sm'>Reviews (122)</p>
         </div>
         <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ipsa earum dolores suscipit aspernatur maxime sit voluptatum! Repellat hic asperiores, delectus, id molestiae, tempora voluptatibus dolore ipsa quisquam ducimus saepe.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eum et ratione(e.g., sizes, colors). Nam iusto sequi odio omnis, laboriosam recusandae sunt repellat consequuntur aperiam qui assumenda optio natus expedita excepturi totam.</p>
+          <p>This product is expertly crafted using premium materials, ensuring both exceptional quality and longevity. Its luxurious composition offers a range of benefits, from deep hydration and nourishment to enhanced protection, leaving your skin (or hair) feeling revitalized, soft, and beautifully radiant with every use. Perfect for those seeking both efficacy and indulgence in their daily routine.</p>
+          <p>Lily T. ★★★★★ <br />
+          "I am in love with this fragrance! It's elegant and sophisticated, with just the right balance of floral and musky notes. I've received so many compliments every time I wear it. Its become my signature scent!"</p>
+          <p>Mark D. ★★★★☆<br />
+          "A truly captivating scent! It's fresh and bold without being overwhelming. I appreciate how long it lasts throughout the day — I can still smell it on my clothes by the evening. The only reason it's not five stars is I wish the scent was a bit more subtle."</p>
+          <p>Chloe S. ★★★★★<br />
+          "This perfume is absolutely divine. It's sweet but not too sugary, with a hint of warmth that makes it perfect for both day and night. It feels luxurious and unique — a real treat to wear!"</p>
         </div>
       </div>
       {/* ------------Display Related Products-------------- */}

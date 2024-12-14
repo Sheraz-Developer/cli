@@ -7,6 +7,7 @@ const Hero = () => {
         {/* Hero left side */}
         <div className='w-full sm:1/2 flex items-center justify-center py-10 sm:py-0'>
             <div className='text-[#414141]'>
+        <img src={assets.seraphic} className='w-32' alt="" />
                 <div className='flex items-center gap-2'>
                     <p className='w-8 md:w-11 h-[2px] bg-[#414141]'></p>
                     <p className='font-medium text-sm md:text-base'>OUR BESTSELLERS</p>
